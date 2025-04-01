@@ -1,0 +1,60 @@
+body {background-color: beige;}
+
+nav {
+    display: flex;
+    background-color: #333; 
+    color: white; 
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555; 
+    color: white; 
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px;
+}
+
+nav > div {
+    flex: 1; 
+    text-align: center; 
+    font-size: 20px;
+}
+
+main {
+    /* Centering the main content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 60px); /* Adjusting for header and footer height */
+}
+
+footer {
+    /* Positioning the footer at the bottom of the page */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    nav > div {
+        font-size: 16px; /* Smaller font size for mobile devices */
+    }
+
+    nav {
+        flex-direction: column; /* Stack navigation items vertically on small screens */
+    };
+
+   
+
+    
+}

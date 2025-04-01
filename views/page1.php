@@ -18,9 +18,8 @@ $title = 'Page 1'; // Set the title for the page
 
 
     <main>
-       <?= $p1->get_full_name(); ?>
-       <?= $p2->get_full_name(); ?>
-
+       <div><?= $p1->get_full_name(); ?></div>
+       <div><?= $p2->get_full_name(); ?></div>
     </main>
 
     <footer>

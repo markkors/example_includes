@@ -1,5 +1,5 @@
 <?php
-    $title = 'Page 2 - add message'; // Set the title for the page
+    $title = 'Page 3 - something else'; // Set the title for the page
 ?>
 
 
@@ -15,7 +15,7 @@
 
 
     <main>
-        pagina 2
+        pagina 3
     </main>
 
     <footer>
