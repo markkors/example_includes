@@ -4,6 +4,8 @@ $p2 = new person('John', 'Woei', 35);
 
 $title = 'Page 1'; // Set the title for the page
 
+$entries = $gastenboek->getEntries(); // Get the entries from the gastenboek class
+$table = $tools::tableBuilder($entries);
 
 ?>
 
@@ -18,8 +20,7 @@ $title = 'Page 1'; // Set the title for the page
 
 
     <main>
-       <div><?= $p1->get_full_name(); ?></div>
-       <div><?= $p2->get_full_name(); ?></div>
+        <div class="table_container"><?=$table;?></div>
     </main>
 
     <footer>

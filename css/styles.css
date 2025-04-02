@@ -45,6 +45,26 @@ footer {
     padding: 10px;
 }
 
+.table_container {
+    width: 100%; /* Full width for smaller screens */
+}
+
+.table {
+    width: 100%; /* Full width for smaller screens */
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #f2f2f2; /* Light gray background for table header */
+    text-align: left;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd; /* Border for table cells */
+    padding: 8px; /* Padding for table cells */
+}
+
+
 @media screen and (max-width: 600px) {
     nav > div {
         font-size: 16px; /* Smaller font size for mobile devices */
@@ -53,8 +73,5 @@ footer {
     nav {
         flex-direction: column; /* Stack navigation items vertically on small screens */
     };
-
    
-
-    
 }
