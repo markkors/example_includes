@@ -1,6 +1,6 @@
 <?php
-$p1 = new person('John', 'Doe', 30);
-$p2 = new person('John', 'Woei', 35);
+//$p1 = new person('John', 'Doe', 30);
+//$p2 = new person('John', 'Woei', 35);
 
 $title = 'Page 1'; // Set the title for the page
 

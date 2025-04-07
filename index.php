@@ -6,11 +6,13 @@ include 'autoloader.php'; // Include the autoloader to load classes automaticall
     // get the URL of the current page
     $current_page = $_SERVER['REQUEST_URI']; 
 
+
     $db = new dbcontext(); // Create a new instance of the dbcontext class
     $conn = $db->getConnection(); // Get the database connection
     $gastenboek = new gastenboek($conn); // Create a new instance of the gastenboek class
     $tools = new tools(); // Create a new instance of the tools class
     
+
     switch ($current_page) {
         case '/':
             require 'views/page1.php'; // Include the home page

@@ -1,9 +1,7 @@
 <?php
 
 class tools {
-    
-    
-    
+        
     public static function tableBuilder(array $data, string $tableClass = 'table') : string {
         $html = "<table class='$tableClass'>\n";
         $html .= "<thead>\n<tr>\n";
